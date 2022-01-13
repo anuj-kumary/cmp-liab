@@ -11,7 +11,7 @@ body{
     min-height: 100vh;
     width: 100vw;
 }
-nav{
+nav,{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,12 +25,8 @@ nav{
     font-family: var(--font-family);
     font-weight: 500;
 }
-.nav-link{
-    padding: 1rem;
-}
 .social-Link,.navbar{
     display: flex;
-    align-items: center;
 }
 li{
     list-style-type: none;

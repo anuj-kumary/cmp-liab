@@ -25,12 +25,8 @@ nav{
     font-family: var(--font-family);
     font-weight: 500;
 }
-.nav-link{
-    padding: 1rem;
-}
-.social-Link,.navbar{
+.social-Link{
     display: flex;
-    align-items: center;
 }
 li{
     list-style-type: none;

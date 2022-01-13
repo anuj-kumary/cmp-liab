@@ -17,7 +17,7 @@ nav{
     align-items: center;
     height: 9vh;
     background: #fcfcfc;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .logo{
     font-size: 1.2rem;
@@ -25,12 +25,8 @@ nav{
     font-family: var(--font-family);
     font-weight: 500;
 }
-.nav-link{
-    padding: 1rem;
-}
-.social-Link,.navbar{
+.social-Link{
     display: flex;
-    align-items: center;
 }
 li{
     list-style-type: none;

@@ -11,6 +11,7 @@
 html {
 	font-size: 16px;
 	scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 a {
 	text-decoration: none;
@@ -28,15 +29,15 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 9vh;
+    height: 12vh;
     background: #fcfcfc;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    padding: 0 2rem;
 }
 .logo{
     font-size: 1.2rem;
     padding: 1.2rem;
     font-family: var(--font-family);
-    font-weight: 500;
+    font-weight: 700;
 }
 .nav-link{
     padding: 1rem;
@@ -49,11 +50,13 @@ li{
     list-style-type: none;
     justify-items: center;
     padding: 1rem;
-    font-size: 1.2rem;
+    font-size: .9rem;
     cursor: pointer;
+    font-weight: 700;
+    color: rgb(90, 90, 90);;
 }
 li:hover{
-    color: #dc143c;
+    color: #111;
 }
 
 .hero{
@@ -68,7 +71,7 @@ li:hover{
     align-items: center;
 }
 .hero-heading{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 700;
     letter-spacing: .2rem;
     margin-bottom: 10px;

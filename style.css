@@ -113,3 +113,29 @@ li:hover{
     background-color: #6d28d9;
     color: #fcfcfc;
 }
+#div-main {
+    width: 90%;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+  }
+  #side {
+    width: 5rem;
+    height: 10rem;
+    flex-grow: 1;
+    
+  }
+  #main {
+    width: 5rem;
+    height: 5rem;
+    padding: 2rem;
+    flex-grow: 1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .install-heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }

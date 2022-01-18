@@ -26,7 +26,7 @@ img {
 	object-fit: cover;
 }
 body{
-    min-height: 100vh;
+    height: 100vh;
     width: 100vw;
 }
 nav{
@@ -92,7 +92,7 @@ nav{
     padding: .8rem 1rem;
     font-size: 1rem;
     margin-right: 1rem;
-    font-weight: 500;
+    font-weight: 700;
     border-radius: 10px;
     cursor: pointer;
     font-family: var(--font-family);
@@ -100,16 +100,18 @@ nav{
 }
 .btn-documentation{
     background-color: #6d28d9;
-    color: #fcfcfc;
     font-family: var(--font-family);
     font-size: 1rem;
     outline: none;
-    font-weight: 500;
+    font-weight: 700;
     border-width: 0;
     cursor: pointer;
     padding: .8rem 1rem;
     border-radius: 10px;
     transition: all 0.2s ease-in;
+}
+.btn-documentation a{
+    color: #fff;
 }
 .btn-documentation:hover{
     background-color: #fcfcfc;
@@ -141,4 +143,28 @@ nav{
     padding: 0.7rem 1.9rem;
     font-size: 13px;
     font-weight: 400;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    html{
+        font-size: 10px;
+    }
+    .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-para{
+        font-size: 1.3rem;
+    }
+    .left{
+        order: 2;
+    }
+    .right{
+        order: 1;
+        max-width: 400px;
+    }
 }

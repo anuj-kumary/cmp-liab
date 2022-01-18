@@ -122,6 +122,10 @@ nav{
 
 
 /* docs.css */
+.hamburger , .close-sidebar{
+    display: none;
+}
+
 .doc-container{
     margin: 50px auto 0;
     display: flex;
@@ -133,20 +137,53 @@ nav{
 }
 #heading{
     padding: 1rem 1.9rem;
+    
 }
 .nav-link{
     padding: 0.7rem 1.9rem;
     font-size: 13px;
     font-weight: 400;
 }
+.doc-content{
+    min-width: 0;
+margin: 0px auto;
+max-width: 800px;
+flex: 1 1 0%;
+}
+.content-heading{
+    color: #333333;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1rem
+}
 
 
 
-
+@media only screen and (min-width: 1010px){
+    .hero{
+        padding: 50px 20px;
+    }
+}
 
 @media only screen and (max-width: 600px){
     html{
         font-size: 10px;
+    }
+    .logo{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    .sidebar{
+        display: none;
+    }
+    .show-sidebar , .close-bar{
+        display: block;
+        position: absolute;
+        background: #fff;
     }
     .container{
         flex-direction: column;

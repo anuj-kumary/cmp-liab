@@ -6,11 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <nav>
         <div class="navbar">
             <p class="logo"> <a href="index.html">UI Component </a></p>
+            <div id="hamburger" class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="close-sidebar">
+                <i class="hide close-sidebar fas fa-times"></i>
+            </div>
         </div>
         <ul class="social-Link">
             <li class="menu-link"><a href="docs.html"> Docs </a> </li>
@@ -20,27 +27,33 @@
     </nav>
     <div class="doc-container">
         <div class="sidebar">
-                <header id="heading">Bootstrap Started</header>
+                <header id="heading">Get Started</header>
                 <hr>
                 <ul>
-                    <li class="nav-link"><a  href="#Introduction">Introduction</a></li>
-                    <li class="nav-link"><a href="#Starter_template">Starter template</a></li>
-                    <li class="nav-link"><a href="#download">Download</a></li>
-                    <li class="nav-link"><a href="#BootstrapCDN">BootstrapCDN</a></li>
-                    <li class="nav-link"><a href="#Precompiled_Bootstrap">Precompiled Bootstrap</a></li>
-                    <li class="nav-link"><a href="#Bootstrap_source_code">Bootstrap source code</a></li>
-                    <li class="nav-link"><a href="#Browsers_and_devices">Browsers and devices</a></li>
-                    <li class="nav-link"><a href="#JavaScript">JavaScript</a></li>
-                    <li class="nav-link"><a href="#Events">Events</a></li>
-                    <li class="nav-link"><a href="#Theming_Bootstrap">Theming Bootstrap</a></li>
-                    <li class="nav-link"><a href="#Build_tools">Build tools </a></li>
-                    <li class="nav-link"><a href="#Webpack">Webpack</a></li>
-                    <li class="nav-link"><a href="#Accessibility">Accessibility</a></li>
+                    <li class="nav-link"><a  href="#content-heading">Introduction</a></li>
+                    <li class="nav-link"><a href="#Starter_template">Colors</a></li>
+                    <li class="nav-link"><a href="#download">Typograpgy</a></li>
+                <header id="heading">Components</header>
+                <hr>
+                    <li class="nav-link"><a href="#Precompiled_Bootstrap">Avatar
+                    </a></li>
+                    <li class="nav-link"><a href="#Bootstrap_source_code">Alert</a></li>
+                    <li class="nav-link"><a href="#Browsers_and_devices">Badge</a></li>
+                    <li class="nav-link"><a href="#JavaScript">Button</a></li>
+                    <li class="nav-link"><a href="#Events">Card</a></li>
+                    <li class="nav-link"><a href="#Theming_Bootstrap">Image</a></li>
+                    <li class="nav-link"><a href="#Build_tools">Input </a></li>
+                    <li class="nav-link"><a href="#Webpack">List</a></li>
+                    <li class="nav-link"><a href="#Accessibility">Navigation</a></li>
                 </ul>
         </div>
         <div class="doc-content">
-            <header id="heading">Introduction to UI</header>
+            <div id="content-heading">Introduction to UI</div>
+        <div class="content-intro">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, iure distinctio? Quisquam accusamus fuga numquam! Nulla voluptatem maiores maxime veritatis ipsam necessitatibus. Veritatis deleniti vero blanditiis minus a ex beatae.
         </div>
+        <hr>
         </div>
+        <script src="script.js"></script>
 </body>
 </html>
